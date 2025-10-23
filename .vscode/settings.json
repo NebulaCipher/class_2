@@ -6,6 +6,7 @@
     "*.wxss": "css",
     "cstdint": "cpp",
     "hw_fdcan.hpp": "c",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "motor_control.hpp": "c"
   }
 }

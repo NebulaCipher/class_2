@@ -130,10 +130,7 @@ void MotorControl_Init(void) {
     // 2. 启动 CAN 接收中断
     HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0);
 
-    // 3. 任务初始化（如果 PID 需要重置等，可在此处添加）
-    // PID 和 GM6020 实例已在全局构造中初始化。
-
-
+    // 3. 启动定时器 6，用于周期性调用 MotorControl_Task
     HAL_TIM_Base_Start_IT(&htim6);
 
 }
@@ -144,7 +141,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     }
 }
 /**
- * @brief  主控制任务，需要周期性（如 10ms）调用
+ * @brief  主控制任务，需要周期性调用
  */
 void MotorControl_Task(void) {
     // 1. 选择控制模式

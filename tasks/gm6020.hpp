@@ -1,3 +1,5 @@
+#ifndef _GM6020_H_
+#define _GM6020_H_
 #pragma once
 #include "main.h"
 
@@ -22,3 +24,4 @@ private:
     float current_;
     float temp_;
 };
+#endif // _GM6020_H_

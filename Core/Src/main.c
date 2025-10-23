@@ -32,8 +32,6 @@
 /* USER CODE BEGIN Includes */
 
 #include "motor_control.hpp"
-#include "HW_fdcan.hpp"
-
 
 /* USER CODE END Includes */
 

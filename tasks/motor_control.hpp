@@ -1,7 +1,6 @@
 #pragma once
-#include "stdint.h"
 
-// 声明控制任务函数，供 main.c/main.cpp 调用
+// 声明控制任务函数，供 main.c调用
 #ifdef __cplusplus
 extern "C" {
 #endif

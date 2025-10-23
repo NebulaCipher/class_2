@@ -30,8 +30,6 @@ uint32_t pTxMailbox;
 extern FDCAN_HandleTypeDef hfdcan1; 
 extern FDCAN_HandleTypeDef hfdcan2;
 extern FDCAN_HandleTypeDef hfdcan3;
-// 声明外部电机实例 (在 motor_control.cpp 中定义)
-extern GM6020 motor_m1;
 
 /* Private function prototypes -----------------------------------------------*/
 
