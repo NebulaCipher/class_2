@@ -50,8 +50,8 @@ bool GM6020::decode(uint8_t* data)
 
     // 原始编码器值 (0-8191) 转换为角度 (度)
     // 假设 8192 对应一圈 360 度
-
-    angle_ = (4096 - angle_raw) * (2 * M_PI) / 8192.0f;      
+    // angle_ 范围转换为 -π 到 π
+    angle_ = (angle_raw - 4096) * (2 * M_PI) / 8192.0f;
     
     // GM6020 速度单位通常是 RPM (转/分钟)
     vel_ = speed_raw; 

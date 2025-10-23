@@ -17,7 +17,7 @@ GM6020 motor_m1(0x1FE);
 // PID 参数定义
 // 1. 速度环 PID (输出电流)
 PidParams speed_pid_params = {
-    .kp = 10.0f, 
+    .kp = 13.0f, 
     .ki = 0.01f, 
     .kd = 0.0f,
     .maxOut = 16384.0f, // GM6020最大输出电流值（原始值）
@@ -25,8 +25,8 @@ PidParams speed_pid_params = {
 };
 // 2. 位置环 PID (输出速度)
 PidParams pos_pid_params = {
-    .kp = 100.0f, 
-    .ki = 0.0f, 
+    .kp = 140.0f, 
+    .ki = 0.01f, 
     .kd = 0.0f,
     .maxOut = 500.0f, // 最大速度 (RPM)
     .minOut = -500.0f
@@ -80,7 +80,9 @@ static void SpeedControl_Process(void) {
  */
 static void PositionControl_Process(void) {
     // 角度目标值 (电机1)
-    static float target_angle_rad = 5*M_PI / 6.0f; // 初始目标 pi/6 弧度
+    // static float target_angle_rad = M_PI / 6.0f; // 初始目标 pi/6 弧度
+    static float target_angle_rad = M_PI / 3.0f;
+    // static float target_angle_rad = M_PI / 4.0f;
 
     // 实现第一个要求: $-\5pi/6$ 到 $\5pi/6$ 切换运动
     // 将弧度转换为角度 (GM6020::angle 返回的是角度值)
@@ -106,10 +108,12 @@ static void PositionControl_Process(void) {
     // 切换目标：每 2000ms 切换一次 (200次 MotorControl_Task)
     static uint16_t switch_count = 0;
     switch_count++;
-    // if (switch_count >= 200) {
-    //     switch_count = 0;
-    //     target_angle_rad = (target_angle_rad > 0) ? -5*M_PI / 6.0f : 5*M_PI / 6.0f;
-    // }
+    if (switch_count >= 200) {
+        switch_count = 0;
+        // target_angle_rad = (target_angle_rad > 0) ? -5*M_PI / 6.0f : 5*M_PI / 6.0f;
+        target_angle_rad = (target_angle_rad > M_PI / 2.0f) ? M_PI / 3.0f : 2*M_PI / 3.0f;
+        // target_angle_rad = (target_angle_rad > 0) ? -M_PI : M_PI / 4.0f;
+    }
 }
 
 

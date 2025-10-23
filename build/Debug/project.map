@@ -9533,7 +9533,7 @@ LOAD D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/har
                 0x08000000                g_pfnVectors
                 0x080002cc                        . = ALIGN (0x4)
 
-.text           0x080002d0    0x16750
+.text           0x080002d0    0x16748
                 0x080002d0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080002d0      0x378 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard\libgcc.a(_arm_addsubdf3.o)
@@ -10416,438 +10416,438 @@ LOAD D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/har
                 0x080153d6                GM6020::GM6020(unsigned long)
  *fill*         0x0801541c        0x4 
  .text._ZN6GM60206decodeEPh
-                0x08015420      0x118 CMakeFiles/project.dir/Tasks/gm6020.cpp.obj
+                0x08015420       0xe0 CMakeFiles/project.dir/Tasks/gm6020.cpp.obj
                 0x08015420                GM6020::decode(unsigned char*)
  .text._ZN6GM60206encodeEPh
-                0x08015538       0x4a CMakeFiles/project.dir/Tasks/gm6020.cpp.obj
-                0x08015538                GM6020::encode(unsigned char*)
+                0x08015500       0x4a CMakeFiles/project.dir/Tasks/gm6020.cpp.obj
+                0x08015500                GM6020::encode(unsigned char*)
  .text._ZN6GM60208setInputEf
-                0x08015582       0x1e CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
-                0x08015582                GM6020::setInput(float)
+                0x0801554a       0x1e CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x0801554a                GM6020::setInput(float)
  .text._ZNK6GM60203velEv
-                0x080155a0       0x1e CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
-                0x080155a0                GM6020::vel() const
+                0x08015568       0x1e CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x08015568                GM6020::vel() const
  .text._ZNK6GM60205angleEv
-                0x080155be       0x1e CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
-                0x080155be                GM6020::angle() const
+                0x08015586       0x1e CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x08015586                GM6020::angle() const
  .text._ZL17PackMotorCurrentsR6GM6020Ph
-                0x080155dc       0x24 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x080155a4       0x24 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
  .text._ZL20SpeedControl_Processv
-                0x08015600       0xd4 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x080155c8       0xd4 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
  .text._ZL23PositionControl_Processv
-                0x080156d4       0xac CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x0801569c       0xdc CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
  .text.MotorControl_Init
-                0x08015780       0x30 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
-                0x08015780                MotorControl_Init
+                0x08015778       0x30 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x08015778                MotorControl_Init
  .text.HAL_TIM_PeriodElapsedCallback
-                0x080157b0       0x24 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
-                0x080157b0                HAL_TIM_PeriodElapsedCallback
+                0x080157a8       0x24 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x080157a8                HAL_TIM_PeriodElapsedCallback
  .text.MotorControl_Task
-                0x080157d4       0x44 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
-                0x080157d4                MotorControl_Task
+                0x080157cc       0x44 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x080157cc                MotorControl_Task
  .text._Z41__static_initialization_and_destruction_0v
-                0x08015818       0x5c CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x08015810       0x5c CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
  .text._GLOBAL__sub_I_motor_m1
-                0x08015874        0xa CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x0801586c        0xa CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
  .text._ZN3PidC2E9PidParams
-                0x0801587e       0x40 CMakeFiles/project.dir/Tasks/pid.cpp.obj
-                0x0801587e                Pid::Pid(PidParams)
-                0x0801587e                Pid::Pid(PidParams)
- *fill*         0x080158be        0x2 
+                0x08015876       0x40 CMakeFiles/project.dir/Tasks/pid.cpp.obj
+                0x08015876                Pid::Pid(PidParams)
+                0x08015876                Pid::Pid(PidParams)
+ *fill*         0x080158b6        0x2 
  .text._ZN3Pid7pidCalcEffi
-                0x080158c0      0x150 CMakeFiles/project.dir/Tasks/pid.cpp.obj
-                0x080158c0                Pid::pidCalc(float, float, int)
+                0x080158b8      0x150 CMakeFiles/project.dir/Tasks/pid.cpp.obj
+                0x080158b8                Pid::pidCalc(float, float, int)
  .text.Reset_Handler
-                0x08015a10       0x54 CMakeFiles/project.dir/startup_stm32h723xx.s.obj
-                0x08015a10                Reset_Handler
+                0x08015a08       0x54 CMakeFiles/project.dir/startup_stm32h723xx.s.obj
+                0x08015a08                Reset_Handler
  .text.Default_Handler
-                0x08015a64        0x2 CMakeFiles/project.dir/startup_stm32h723xx.s.obj
-                0x08015a64                RTC_Alarm_IRQHandler
-                0x08015a64                EXTI2_IRQHandler
-                0x08015a64                TIM8_CC_IRQHandler
-                0x08015a64                UART8_IRQHandler
-                0x08015a64                SPI4_IRQHandler
-                0x08015a64                FDCAN3_IT0_IRQHandler
-                0x08015a64                TIM1_CC_IRQHandler
-                0x08015a64                BDMA_Channel6_IRQHandler
-                0x08015a64                DMA2_Stream5_IRQHandler
-                0x08015a64                DMA1_Stream5_IRQHandler
-                0x08015a64                CORDIC_IRQHandler
-                0x08015a64                BDMA_Channel1_IRQHandler
-                0x08015a64                TAMP_STAMP_IRQHandler
-                0x08015a64                EXTI3_IRQHandler
-                0x08015a64                LPTIM4_IRQHandler
-                0x08015a64                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08015a64                LPTIM2_IRQHandler
-                0x08015a64                DFSDM1_FLT1_IRQHandler
-                0x08015a64                DMAMUX2_OVR_IRQHandler
-                0x08015a64                TIM8_UP_TIM13_IRQHandler
-                0x08015a64                I2C3_ER_IRQHandler
-                0x08015a64                DFSDM1_FLT2_IRQHandler
-                0x08015a64                I2C5_EV_IRQHandler
-                0x08015a64                USART10_IRQHandler
-                0x08015a64                MDMA_IRQHandler
-                0x08015a64                LPTIM3_IRQHandler
-                0x08015a64                HSEM1_IRQHandler
-                0x08015a64                EXTI0_IRQHandler
-                0x08015a64                I2C2_EV_IRQHandler
-                0x08015a64                FPU_IRQHandler
-                0x08015a64                OTG_HS_WKUP_IRQHandler
-                0x08015a64                FDCAN1_IT1_IRQHandler
-                0x08015a64                LTDC_ER_IRQHandler
-                0x08015a64                DMA2_Stream2_IRQHandler
-                0x08015a64                SPI1_IRQHandler
-                0x08015a64                OCTOSPI1_IRQHandler
-                0x08015a64                DMA2_Stream3_IRQHandler
-                0x08015a64                OCTOSPI2_IRQHandler
-                0x08015a64                DFSDM1_FLT3_IRQHandler
-                0x08015a64                TIM23_IRQHandler
-                0x08015a64                USART6_IRQHandler
-                0x08015a64                TIM17_IRQHandler
-                0x08015a64                USART3_IRQHandler
-                0x08015a64                BDMA_Channel7_IRQHandler
-                0x08015a64                LPTIM5_IRQHandler
-                0x08015a64                ADC3_IRQHandler
-                0x08015a64                DMA2_Stream0_IRQHandler
-                0x08015a64                TIM4_IRQHandler
-                0x08015a64                BDMA_Channel2_IRQHandler
-                0x08015a64                I2C1_EV_IRQHandler
-                0x08015a64                DMA1_Stream6_IRQHandler
-                0x08015a64                DMAMUX1_OVR_IRQHandler
-                0x08015a64                TIM16_IRQHandler
-                0x08015a64                UART4_IRQHandler
-                0x08015a64                BDMA_Channel5_IRQHandler
-                0x08015a64                TIM3_IRQHandler
-                0x08015a64                RCC_IRQHandler
-                0x08015a64                UART9_IRQHandler
-                0x08015a64                TIM8_BRK_TIM12_IRQHandler
-                0x08015a64                TIM1_TRG_COM_IRQHandler
-                0x08015a64                Default_Handler
-                0x08015a64                ECC_IRQHandler
-                0x08015a64                FMAC_IRQHandler
-                0x08015a64                CEC_IRQHandler
-                0x08015a64                EXTI15_10_IRQHandler
-                0x08015a64                ADC_IRQHandler
-                0x08015a64                I2C5_ER_IRQHandler
-                0x08015a64                DMA1_Stream7_IRQHandler
-                0x08015a64                SPI5_IRQHandler
-                0x08015a64                TIM7_IRQHandler
-                0x08015a64                SDMMC1_IRQHandler
-                0x08015a64                TIM5_IRQHandler
-                0x08015a64                DMA2_Stream7_IRQHandler
-                0x08015a64                TIM15_IRQHandler
-                0x08015a64                PVD_AVD_IRQHandler
-                0x08015a64                I2C3_EV_IRQHandler
-                0x08015a64                EXTI9_5_IRQHandler
-                0x08015a64                RTC_WKUP_IRQHandler
-                0x08015a64                LTDC_IRQHandler
-                0x08015a64                ETH_WKUP_IRQHandler
-                0x08015a64                SPDIF_RX_IRQHandler
-                0x08015a64                SPI2_IRQHandler
-                0x08015a64                OTG_HS_EP1_IN_IRQHandler
-                0x08015a64                TIM24_IRQHandler
-                0x08015a64                CRS_IRQHandler
-                0x08015a64                EXTI4_IRQHandler
-                0x08015a64                RNG_IRQHandler
-                0x08015a64                FDCAN2_IT1_IRQHandler
-                0x08015a64                ETH_IRQHandler
-                0x08015a64                TIM1_UP_IRQHandler
-                0x08015a64                BDMA_Channel4_IRQHandler
-                0x08015a64                OTG_HS_EP1_OUT_IRQHandler
-                0x08015a64                WWDG_IRQHandler
-                0x08015a64                MDIOS_IRQHandler
-                0x08015a64                I2C4_EV_IRQHandler
-                0x08015a64                LPUART1_IRQHandler
-                0x08015a64                TIM2_IRQHandler
-                0x08015a64                DMA2D_IRQHandler
-                0x08015a64                TIM1_BRK_IRQHandler
-                0x08015a64                EXTI1_IRQHandler
-                0x08015a64                SDMMC2_IRQHandler
-                0x08015a64                BDMA_Channel3_IRQHandler
-                0x08015a64                DTS_IRQHandler
-                0x08015a64                MDIOS_WKUP_IRQHandler
-                0x08015a64                USART2_IRQHandler
-                0x08015a64                DFSDM1_FLT0_IRQHandler
-                0x08015a64                SAI4_IRQHandler
-                0x08015a64                I2C2_ER_IRQHandler
-                0x08015a64                DMA2_Stream1_IRQHandler
-                0x08015a64                FLASH_IRQHandler
-                0x08015a64                DMA2_Stream4_IRQHandler
-                0x08015a64                SPI3_IRQHandler
-                0x08015a64                WAKEUP_PIN_IRQHandler
-                0x08015a64                I2C1_ER_IRQHandler
-                0x08015a64                FMC_IRQHandler
-                0x08015a64                FDCAN_CAL_IRQHandler
-                0x08015a64                SWPMI1_IRQHandler
-                0x08015a64                COMP1_IRQHandler
-                0x08015a64                LPTIM1_IRQHandler
-                0x08015a64                DCMI_PSSI_IRQHandler
-                0x08015a64                I2C4_ER_IRQHandler
-                0x08015a64                DMA2_Stream6_IRQHandler
-                0x08015a64                SAI1_IRQHandler
- *fill*         0x08015a66        0x2 
+                0x08015a5c        0x2 CMakeFiles/project.dir/startup_stm32h723xx.s.obj
+                0x08015a5c                RTC_Alarm_IRQHandler
+                0x08015a5c                EXTI2_IRQHandler
+                0x08015a5c                TIM8_CC_IRQHandler
+                0x08015a5c                UART8_IRQHandler
+                0x08015a5c                SPI4_IRQHandler
+                0x08015a5c                FDCAN3_IT0_IRQHandler
+                0x08015a5c                TIM1_CC_IRQHandler
+                0x08015a5c                BDMA_Channel6_IRQHandler
+                0x08015a5c                DMA2_Stream5_IRQHandler
+                0x08015a5c                DMA1_Stream5_IRQHandler
+                0x08015a5c                CORDIC_IRQHandler
+                0x08015a5c                BDMA_Channel1_IRQHandler
+                0x08015a5c                TAMP_STAMP_IRQHandler
+                0x08015a5c                EXTI3_IRQHandler
+                0x08015a5c                LPTIM4_IRQHandler
+                0x08015a5c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08015a5c                LPTIM2_IRQHandler
+                0x08015a5c                DFSDM1_FLT1_IRQHandler
+                0x08015a5c                DMAMUX2_OVR_IRQHandler
+                0x08015a5c                TIM8_UP_TIM13_IRQHandler
+                0x08015a5c                I2C3_ER_IRQHandler
+                0x08015a5c                DFSDM1_FLT2_IRQHandler
+                0x08015a5c                I2C5_EV_IRQHandler
+                0x08015a5c                USART10_IRQHandler
+                0x08015a5c                MDMA_IRQHandler
+                0x08015a5c                LPTIM3_IRQHandler
+                0x08015a5c                HSEM1_IRQHandler
+                0x08015a5c                EXTI0_IRQHandler
+                0x08015a5c                I2C2_EV_IRQHandler
+                0x08015a5c                FPU_IRQHandler
+                0x08015a5c                OTG_HS_WKUP_IRQHandler
+                0x08015a5c                FDCAN1_IT1_IRQHandler
+                0x08015a5c                LTDC_ER_IRQHandler
+                0x08015a5c                DMA2_Stream2_IRQHandler
+                0x08015a5c                SPI1_IRQHandler
+                0x08015a5c                OCTOSPI1_IRQHandler
+                0x08015a5c                DMA2_Stream3_IRQHandler
+                0x08015a5c                OCTOSPI2_IRQHandler
+                0x08015a5c                DFSDM1_FLT3_IRQHandler
+                0x08015a5c                TIM23_IRQHandler
+                0x08015a5c                USART6_IRQHandler
+                0x08015a5c                TIM17_IRQHandler
+                0x08015a5c                USART3_IRQHandler
+                0x08015a5c                BDMA_Channel7_IRQHandler
+                0x08015a5c                LPTIM5_IRQHandler
+                0x08015a5c                ADC3_IRQHandler
+                0x08015a5c                DMA2_Stream0_IRQHandler
+                0x08015a5c                TIM4_IRQHandler
+                0x08015a5c                BDMA_Channel2_IRQHandler
+                0x08015a5c                I2C1_EV_IRQHandler
+                0x08015a5c                DMA1_Stream6_IRQHandler
+                0x08015a5c                DMAMUX1_OVR_IRQHandler
+                0x08015a5c                TIM16_IRQHandler
+                0x08015a5c                UART4_IRQHandler
+                0x08015a5c                BDMA_Channel5_IRQHandler
+                0x08015a5c                TIM3_IRQHandler
+                0x08015a5c                RCC_IRQHandler
+                0x08015a5c                UART9_IRQHandler
+                0x08015a5c                TIM8_BRK_TIM12_IRQHandler
+                0x08015a5c                TIM1_TRG_COM_IRQHandler
+                0x08015a5c                Default_Handler
+                0x08015a5c                ECC_IRQHandler
+                0x08015a5c                FMAC_IRQHandler
+                0x08015a5c                CEC_IRQHandler
+                0x08015a5c                EXTI15_10_IRQHandler
+                0x08015a5c                ADC_IRQHandler
+                0x08015a5c                I2C5_ER_IRQHandler
+                0x08015a5c                DMA1_Stream7_IRQHandler
+                0x08015a5c                SPI5_IRQHandler
+                0x08015a5c                TIM7_IRQHandler
+                0x08015a5c                SDMMC1_IRQHandler
+                0x08015a5c                TIM5_IRQHandler
+                0x08015a5c                DMA2_Stream7_IRQHandler
+                0x08015a5c                TIM15_IRQHandler
+                0x08015a5c                PVD_AVD_IRQHandler
+                0x08015a5c                I2C3_EV_IRQHandler
+                0x08015a5c                EXTI9_5_IRQHandler
+                0x08015a5c                RTC_WKUP_IRQHandler
+                0x08015a5c                LTDC_IRQHandler
+                0x08015a5c                ETH_WKUP_IRQHandler
+                0x08015a5c                SPDIF_RX_IRQHandler
+                0x08015a5c                SPI2_IRQHandler
+                0x08015a5c                OTG_HS_EP1_IN_IRQHandler
+                0x08015a5c                TIM24_IRQHandler
+                0x08015a5c                CRS_IRQHandler
+                0x08015a5c                EXTI4_IRQHandler
+                0x08015a5c                RNG_IRQHandler
+                0x08015a5c                FDCAN2_IT1_IRQHandler
+                0x08015a5c                ETH_IRQHandler
+                0x08015a5c                TIM1_UP_IRQHandler
+                0x08015a5c                BDMA_Channel4_IRQHandler
+                0x08015a5c                OTG_HS_EP1_OUT_IRQHandler
+                0x08015a5c                WWDG_IRQHandler
+                0x08015a5c                MDIOS_IRQHandler
+                0x08015a5c                I2C4_EV_IRQHandler
+                0x08015a5c                LPUART1_IRQHandler
+                0x08015a5c                TIM2_IRQHandler
+                0x08015a5c                DMA2D_IRQHandler
+                0x08015a5c                TIM1_BRK_IRQHandler
+                0x08015a5c                EXTI1_IRQHandler
+                0x08015a5c                SDMMC2_IRQHandler
+                0x08015a5c                BDMA_Channel3_IRQHandler
+                0x08015a5c                DTS_IRQHandler
+                0x08015a5c                MDIOS_WKUP_IRQHandler
+                0x08015a5c                USART2_IRQHandler
+                0x08015a5c                DFSDM1_FLT0_IRQHandler
+                0x08015a5c                SAI4_IRQHandler
+                0x08015a5c                I2C2_ER_IRQHandler
+                0x08015a5c                DMA2_Stream1_IRQHandler
+                0x08015a5c                FLASH_IRQHandler
+                0x08015a5c                DMA2_Stream4_IRQHandler
+                0x08015a5c                SPI3_IRQHandler
+                0x08015a5c                WAKEUP_PIN_IRQHandler
+                0x08015a5c                I2C1_ER_IRQHandler
+                0x08015a5c                FMC_IRQHandler
+                0x08015a5c                FDCAN_CAL_IRQHandler
+                0x08015a5c                SWPMI1_IRQHandler
+                0x08015a5c                COMP1_IRQHandler
+                0x08015a5c                LPTIM1_IRQHandler
+                0x08015a5c                DCMI_PSSI_IRQHandler
+                0x08015a5c                I2C4_ER_IRQHandler
+                0x08015a5c                DMA2_Stream6_IRQHandler
+                0x08015a5c                SAI1_IRQHandler
+ *fill*         0x08015a5e        0x2 
  .text.HAL_PCD_MspInit
-                0x08015a68       0xac CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015a68                HAL_PCD_MspInit
+                0x08015a60       0xac CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015a60                HAL_PCD_MspInit
  .text.HAL_PCD_SetupStageCallback
-                0x08015b14       0x24 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015b14                HAL_PCD_SetupStageCallback
+                0x08015b0c       0x24 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015b0c                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x08015b38       0x36 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015b38                HAL_PCD_DataOutStageCallback
+                0x08015b30       0x36 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015b30                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x08015b6e       0x34 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015b6e                HAL_PCD_DataInStageCallback
+                0x08015b66       0x34 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015b66                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x08015ba2       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015ba2                HAL_PCD_SOFCallback
+                0x08015b9a       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015b9a                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x08015bbe       0x50 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015bbe                HAL_PCD_ResetCallback
- *fill*         0x08015c0e        0x2 
+                0x08015bb6       0x50 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015bb6                HAL_PCD_ResetCallback
+ *fill*         0x08015c06        0x2 
  .text.HAL_PCD_SuspendCallback
-                0x08015c10       0x4c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015c10                HAL_PCD_SuspendCallback
+                0x08015c08       0x4c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015c08                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x08015c5c       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015c5c                HAL_PCD_ResumeCallback
+                0x08015c54       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015c54                HAL_PCD_ResumeCallback
  .text.HAL_PCD_ISOOUTIncompleteCallback
-                0x08015c78       0x24 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015c78                HAL_PCD_ISOOUTIncompleteCallback
+                0x08015c70       0x24 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015c70                HAL_PCD_ISOOUTIncompleteCallback
  .text.HAL_PCD_ISOINIncompleteCallback
-                0x08015c9c       0x24 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015c9c                HAL_PCD_ISOINIncompleteCallback
+                0x08015c94       0x24 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015c94                HAL_PCD_ISOINIncompleteCallback
  .text.HAL_PCD_ConnectCallback
-                0x08015cc0       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015cc0                HAL_PCD_ConnectCallback
+                0x08015cb8       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015cb8                HAL_PCD_ConnectCallback
  .text.HAL_PCD_DisconnectCallback
-                0x08015cdc       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015cdc                HAL_PCD_DisconnectCallback
+                0x08015cd4       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015cd4                HAL_PCD_DisconnectCallback
  .text.USBD_LL_Init
-                0x08015cf8       0xa4 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015cf8                USBD_LL_Init
+                0x08015cf0       0xa4 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015cf0                USBD_LL_Init
  .text.USBD_LL_Start
-                0x08015d9c       0x36 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015d9c                USBD_LL_Start
+                0x08015d94       0x36 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015d94                USBD_LL_Start
  .text.USBD_LL_OpenEP
-                0x08015dd2       0x4c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015dd2                USBD_LL_OpenEP
+                0x08015dca       0x4c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015dca                USBD_LL_OpenEP
  .text.USBD_LL_CloseEP
-                0x08015e1e       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015e1e                USBD_LL_CloseEP
+                0x08015e16       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015e16                USBD_LL_CloseEP
  .text.USBD_LL_StallEP
-                0x08015e5c       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015e5c                USBD_LL_StallEP
+                0x08015e54       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015e54                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x08015e9a       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015e9a                USBD_LL_ClearStallEP
+                0x08015e92       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015e92                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x08015ed8       0x58 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015ed8                USBD_LL_IsStallEP
+                0x08015ed0       0x58 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015ed0                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x08015f30       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015f30                USBD_LL_SetUSBAddress
+                0x08015f28       0x3e CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015f28                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x08015f6e       0x42 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015f6e                USBD_LL_Transmit
+                0x08015f66       0x42 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015f66                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x08015fb0       0x42 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015fb0                USBD_LL_PrepareReceive
+                0x08015fa8       0x42 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015fa8                USBD_LL_PrepareReceive
  .text.USBD_LL_GetRxDataSize
-                0x08015ff2       0x26 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08015ff2                USBD_LL_GetRxDataSize
+                0x08015fea       0x26 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08015fea                USBD_LL_GetRxDataSize
  .text.USBD_static_malloc
-                0x08016018       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08016018                USBD_static_malloc
+                0x08016010       0x1c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08016010                USBD_static_malloc
  .text.USBD_static_free
-                0x08016034       0x14 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08016034                USBD_static_free
+                0x0801602c       0x14 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0801602c                USBD_static_free
  .text.USBD_Get_USB_Status
-                0x08016048       0x58 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08016048                USBD_Get_USB_Status
+                0x08016040       0x58 CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08016040                USBD_Get_USB_Status
  .text.MX_USB_DEVICE_Init
-                0x080160a0       0x64 CMakeFiles/project.dir/USB_DEVICE/App/usb_device.c.obj
-                0x080160a0                MX_USB_DEVICE_Init
+                0x08016098       0x64 CMakeFiles/project.dir/USB_DEVICE/App/usb_device.c.obj
+                0x08016098                MX_USB_DEVICE_Init
  .text.USBD_HS_DeviceDescriptor
-                0x08016104       0x24 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x08016104                USBD_HS_DeviceDescriptor
+                0x080160fc       0x24 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x080160fc                USBD_HS_DeviceDescriptor
  .text.USBD_HS_LangIDStrDescriptor
-                0x08016128       0x24 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x08016128                USBD_HS_LangIDStrDescriptor
+                0x08016120       0x24 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08016120                USBD_HS_LangIDStrDescriptor
  .text.USBD_HS_ProductStrDescriptor
-                0x0801614c       0x3c CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x0801614c                USBD_HS_ProductStrDescriptor
+                0x08016144       0x3c CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08016144                USBD_HS_ProductStrDescriptor
  .text.USBD_HS_ManufacturerStrDescriptor
-                0x08016188       0x28 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x08016188                USBD_HS_ManufacturerStrDescriptor
+                0x08016180       0x28 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08016180                USBD_HS_ManufacturerStrDescriptor
  .text.USBD_HS_SerialStrDescriptor
-                0x080161b0       0x24 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x080161b0                USBD_HS_SerialStrDescriptor
+                0x080161a8       0x24 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x080161a8                USBD_HS_SerialStrDescriptor
  .text.USBD_HS_ConfigStrDescriptor
-                0x080161d4       0x3c CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x080161d4                USBD_HS_ConfigStrDescriptor
+                0x080161cc       0x3c CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x080161cc                USBD_HS_ConfigStrDescriptor
  .text.USBD_HS_InterfaceStrDescriptor
-                0x08016210       0x3c CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x08016210                USBD_HS_InterfaceStrDescriptor
+                0x08016208       0x3c CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08016208                USBD_HS_InterfaceStrDescriptor
  .text.Get_SerialNum
-                0x0801624c       0x58 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08016244       0x58 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
  .text.IntToUnicode
-                0x080162a4       0x7e CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
- *fill*         0x08016322        0x2 
+                0x0801629c       0x7e CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+ *fill*         0x0801631a        0x2 
  .text.CDC_Init_HS
-                0x08016324       0x28 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x0801631c       0x28 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_DeInit_HS
-                0x0801634c       0x10 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x08016344       0x10 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Control_HS
-                0x0801635c       0xbc CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x08016354       0xbc CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Receive_HS
-                0x08016418       0x28 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x08016410       0x28 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_TransmitCplt_HS
-                0x08016440       0x22 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- *fill*         0x08016462        0x6 
- .text.sinf     0x08016468      0x1ec D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
-                0x08016468                sinf
+                0x08016438       0x22 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ *fill*         0x0801645a        0x6 
+ .text.sinf     0x08016460      0x1ec D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+                0x08016460                sinf
  .text.with_errnof
-                0x08016654       0x1c D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
+                0x0801664c       0x1c D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
  .text.__math_invalidf
-                0x08016670       0x20 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
-                0x08016670                __math_invalidf
+                0x08016668       0x20 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
+                0x08016668                __math_invalidf
  .text.__udivmoddi4
-                0x08016690      0x2f8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
-                0x08016690                __udivmoddi4
- .text.memset   0x08016988       0x10 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memset.o)
-                0x08016988                memset
- .text.__errno  0x08016998        0xc D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
-                0x08016998                __errno
+                0x08016688      0x2f8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x08016688                __udivmoddi4
+ .text.memset   0x08016980       0x10 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memset.o)
+                0x08016980                memset
+ .text.__errno  0x08016990        0xc D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+                0x08016990                __errno
  .text.__libc_init_array
-                0x080169a4       0x48 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-init.o)
-                0x080169a4                __libc_init_array
- .text.memcpy   0x080169ec       0x1c D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memcpy-stub.o)
-                0x080169ec                memcpy
+                0x0801699c       0x48 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-init.o)
+                0x0801699c                __libc_init_array
+ .text.memcpy   0x080169e4       0x1c D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                0x080169e4                memcpy
  *(.glue_7)
- .glue_7        0x08016a08        0x0 linker stubs
+ .glue_7        0x08016a00        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08016a08        0x0 linker stubs
+ .glue_7t       0x08016a00        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08016a08        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .eh_frame      0x08016a00        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  *(.init)
- .init          0x08016a08        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x08016a08                _init
- .init          0x08016a0c        0x8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .init          0x08016a00        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x08016a00                _init
+ .init          0x08016a04        0x8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtn.o
  *(.fini)
- .fini          0x08016a14        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x08016a14                _fini
- .fini          0x08016a18        0x8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtn.o
-                0x08016a20                        . = ALIGN (0x4)
-                0x08016a20                        _etext = .
+ .fini          0x08016a0c        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x08016a0c                _fini
+ .fini          0x08016a10        0x8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x08016a18                        . = ALIGN (0x4)
+                0x08016a18                        _etext = .
 
-.vfp11_veneer   0x08016a20        0x0
- .vfp11_veneer  0x08016a20        0x0 linker stubs
+.vfp11_veneer   0x08016a18        0x0
+ .vfp11_veneer  0x08016a18        0x0 linker stubs
 
-.v4_bx          0x08016a20        0x0
- .v4_bx         0x08016a20        0x0 linker stubs
+.v4_bx          0x08016a18        0x0
+ .v4_bx         0x08016a18        0x0 linker stubs
 
-.iplt           0x08016a20        0x0
- .iplt          0x08016a20        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x08016a18        0x0
+ .iplt          0x08016a18        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.rodata         0x08016a20      0x6d8
-                0x08016a20                        . = ALIGN (0x4)
+.rodata         0x08016a18      0x6d8
+                0x08016a18                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08016a20       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
- *fill*         0x08016a6d        0x3 
- .rodata        0x08016a70       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- *fill*         0x08016abd        0x3 
- .rodata        0x08016ac0       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .rodata        0x08016b10       0x4e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- *fill*         0x08016b5e        0x2 
- .rodata        0x08016b60       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
- *fill*         0x08016bad        0x3 
- .rodata        0x08016bb0       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .rodata        0x08016c00       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .rodata        0x08016c50       0x49 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- *fill*         0x08016c99        0x3 
- .rodata        0x08016c9c       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cordic.c.obj
- .rodata        0x08016cec       0x9c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
- .rodata        0x08016d88       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- *fill*         0x08016dd5        0x3 
- .rodata        0x08016dd8       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
- *fill*         0x08016e25        0x3 
- .rodata        0x08016e28       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
- .rodata        0x08016e78       0x4e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
- *fill*         0x08016ec6        0x2 
- .rodata        0x08016ec8       0x51 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- *fill*         0x08016f19        0x3 
- .rodata        0x08016f1c       0x46 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .rodata        0x08016a18       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+ *fill*         0x08016a65        0x3 
+ .rodata        0x08016a68       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ *fill*         0x08016ab5        0x3 
+ .rodata        0x08016ab8       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .rodata        0x08016b08       0x4e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ *fill*         0x08016b56        0x2 
+ .rodata        0x08016b58       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+ *fill*         0x08016ba5        0x3 
+ .rodata        0x08016ba8       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .rodata        0x08016bf8       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .rodata        0x08016c48       0x49 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ *fill*         0x08016c91        0x3 
+ .rodata        0x08016c94       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cordic.c.obj
+ .rodata        0x08016ce4       0x9c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+ .rodata        0x08016d80       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ *fill*         0x08016dcd        0x3 
+ .rodata        0x08016dd0       0x4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+ *fill*         0x08016e1d        0x3 
+ .rodata        0x08016e20       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+ .rodata        0x08016e70       0x4e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+ *fill*         0x08016ebe        0x2 
+ .rodata        0x08016ec0       0x51 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+ *fill*         0x08016f11        0x3 
+ .rodata        0x08016f14       0x46 CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
  *(.rodata*)
- *fill*         0x08016f62        0x2 
+ *fill*         0x08016f5a        0x2 
  .rodata.D1CorePrescTable
-                0x08016f64       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.obj
-                0x08016f64                D1CorePrescTable
+                0x08016f5c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.obj
+                0x08016f5c                D1CorePrescTable
  .rodata.flagBitshiftOffset.0
-                0x08016f74        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x08016f6c        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .rodata.DLCtoBytes
-                0x08016f7c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+                0x08016f74       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
  .rodata.UARTPrescTable
-                0x08016f8c       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                0x08016f8c                UARTPrescTable
+                0x08016f84       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x08016f84                UARTPrescTable
  .rodata.numerator.1
-                0x08016fa4        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x08016f9c        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
  .rodata.denominator.0
-                0x08016fac        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x08016fa4        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
  .rodata.__inv_pio4
-                0x08016fb4       0x60 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
-                0x08016fb4                __inv_pio4
- *fill*         0x08017014        0x4 
+                0x08016fac       0x60 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+                0x08016fac                __inv_pio4
+ *fill*         0x0801700c        0x4 
  .rodata.__sincosf_table
-                0x08017018       0xe0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
-                0x08017018                __sincosf_table
-                0x080170f8                        . = ALIGN (0x4)
+                0x08017010       0xe0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+                0x08017010                __sincosf_table
+                0x080170f0                        . = ALIGN (0x4)
 
-.ARM.extab      0x080170f8        0x0
-                0x080170f8                        . = ALIGN (0x4)
+.ARM.extab      0x080170f0        0x0
+                0x080170f0                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080170f8                        . = ALIGN (0x4)
+                0x080170f0                        . = ALIGN (0x4)
 
-.ARM            0x080170f8        0x8
-                0x080170f8                        . = ALIGN (0x4)
-                0x080170f8                        __exidx_start = .
+.ARM            0x080170f0        0x8
+                0x080170f0                        . = ALIGN (0x4)
+                0x080170f0                        __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.__udivmoddi4
-                0x080170f8        0x8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
-                0x08017100                        __exidx_end = .
-                0x08017100                        . = ALIGN (0x4)
+                0x080170f0        0x8 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x080170f8                        __exidx_end = .
+                0x080170f8                        . = ALIGN (0x4)
 
-.preinit_array  0x08017100        0x0
-                0x08017100                        . = ALIGN (0x4)
-                0x08017100                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080170f8        0x0
+                0x080170f8                        . = ALIGN (0x4)
+                0x080170f8                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08017100                        PROVIDE (__preinit_array_end = .)
-                0x08017100                        . = ALIGN (0x4)
+                0x080170f8                        PROVIDE (__preinit_array_end = .)
+                0x080170f8                        . = ALIGN (0x4)
 
-.init_array     0x08017100        0x8
-                0x08017100                        . = ALIGN (0x4)
-                0x08017100                        PROVIDE (__init_array_start = .)
+.init_array     0x080170f8        0x8
+                0x080170f8                        . = ALIGN (0x4)
+                0x080170f8                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08017100        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
- .init_array    0x08017104        0x4 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
-                0x08017108                        PROVIDE (__init_array_end = .)
-                0x08017108                        . = ALIGN (0x4)
+ .init_array    0x080170f8        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .init_array    0x080170fc        0x4 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+                0x08017100                        PROVIDE (__init_array_end = .)
+                0x08017100                        . = ALIGN (0x4)
 
-.fini_array     0x08017108        0x4
-                0x08017108                        . = ALIGN (0x4)
+.fini_array     0x08017100        0x4
+                0x08017100                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08017108        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .fini_array    0x08017100        0x4 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0801710c                        . = ALIGN (0x4)
-                0x0801710c                        _sidata = LOADADDR (.data)
+                0x08017104                        . = ALIGN (0x4)
+                0x08017104                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x0801710c        0x0
- .rel.iplt      0x0801710c        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.rel.dyn        0x08017104        0x0
+ .rel.iplt      0x08017104        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.data           0x20000000      0x184 load address 0x0801710c
+.data           0x20000000      0x184 load address 0x08017104
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -10918,16 +10918,16 @@ LOAD D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/har
                 0x20000184                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20000184        0x0 load address 0x08017290
+                0x20000184        0x0 load address 0x08017288
  .tm_clone_table
                 0x20000184        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  .tm_clone_table
                 0x20000184        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtend.o
 
-.igot.plt       0x20000184        0x0 load address 0x08017290
+.igot.plt       0x20000184        0x0 load address 0x08017288
  .igot.plt      0x20000184        0x0 D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.tdata          0x20000184        0x0 load address 0x08017290
+.tdata          0x20000184        0x0 load address 0x08017288
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20000184                        . = ALIGN (0x4)
                 0x20000184                        _edata = .
@@ -10944,7 +10944,7 @@ LOAD D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/har
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x20000184        0x0 load address 0x08017290
+.tbss           0x20000184        0x0 load address 0x08017288
                 0x20000184                        _sbss = .
                 0x20000184                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -10961,7 +10961,7 @@ LOAD D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/har
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x20000184     0x26fc load address 0x08017290
+.bss            0x20000184     0x26fc load address 0x08017288
  *(.bss)
  *(.bss*)
  .bss.completed.1
@@ -11074,7 +11074,7 @@ LOAD D:/Arm GNU Toolchain/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+dp/har
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20002880     0x1000 load address 0x08017290
+                0x20002880     0x1000 load address 0x08017288
                 0x20002880                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x20002880                        PROVIDE (_end = .)
@@ -11726,7 +11726,7 @@ LOAD linker stubs
  .debug_macro   0x000494f8      0x3f2 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .debug_macro   0x000498ea       0x10 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
 
-.debug_line     0x00000000    0x30404
+.debug_line     0x00000000    0x30411
  .debug_line    0x00000000      0x8a0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.obj
  .debug_line    0x000008a0     0x13f6 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
  .debug_line    0x00001c96      0x8b2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
@@ -11761,14 +11761,14 @@ LOAD linker stubs
  .debug_line    0x00029735      0xa3c CMakeFiles/project.dir/Core/Src/tim.c.obj
  .debug_line    0x0002a171      0x98e CMakeFiles/project.dir/Core/Src/usart.c.obj
  .debug_line    0x0002aaff      0xcbb CMakeFiles/project.dir/Tasks/HW_fdcan.cpp.obj
- .debug_line    0x0002b7ba      0xcb6 CMakeFiles/project.dir/Tasks/gm6020.cpp.obj
- .debug_line    0x0002c470      0xef6 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
- .debug_line    0x0002d366      0x8c2 CMakeFiles/project.dir/Tasks/pid.cpp.obj
- .debug_line    0x0002dc28       0x7b CMakeFiles/project.dir/startup_stm32h723xx.s.obj
- .debug_line    0x0002dca3      0xc7c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
- .debug_line    0x0002e91f      0x8a3 CMakeFiles/project.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_line    0x0002f1c2      0x94f CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_line    0x0002fb11      0x8f3 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_line    0x0002b7ba      0xca1 CMakeFiles/project.dir/Tasks/gm6020.cpp.obj
+ .debug_line    0x0002c45b      0xf18 CMakeFiles/project.dir/Tasks/motor_control.cpp.obj
+ .debug_line    0x0002d373      0x8c2 CMakeFiles/project.dir/Tasks/pid.cpp.obj
+ .debug_line    0x0002dc35       0x7b CMakeFiles/project.dir/startup_stm32h723xx.s.obj
+ .debug_line    0x0002dcb0      0xc7c CMakeFiles/project.dir/USB_DEVICE/Target/usbd_conf.c.obj
+ .debug_line    0x0002e92c      0x8a3 CMakeFiles/project.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_line    0x0002f1cf      0x94f CMakeFiles/project.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_line    0x0002fb1e      0x8f3 CMakeFiles/project.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
 
 .debug_str      0x00000000   0x16d0bd
  .debug_str     0x00000000   0x16d0bd cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.obj
