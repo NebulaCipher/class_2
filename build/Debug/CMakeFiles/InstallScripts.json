@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/Project_2026/class_2/build/Debug/cmake_install.cmake",
-		"D:/Project_2026/class_2/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
